@@ -1,0 +1,10 @@
+html, body{
+    scroll-behavior: smooth;
+    background-color: rgb(255, 238, 215)
+}
+
+/* styles.module.css */
+.section {
+    scroll-margin-top: 60px; /* Adjust the value based on your navbar's height */
+  }
+  

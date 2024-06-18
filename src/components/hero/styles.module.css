@@ -1,0 +1,74 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    font-family: 'Lora', serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.orderNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border: 3px solid red;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.orderLink {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.orderLink:hover {
+    color: darkred;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoItem {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    color: #000;
+    font-size: 16px;
+    margin: 10px 0;
+    text-decoration: none; /* Ensure links have no underline */
+}
+
+.icon {
+    margin-right: 10px;
+    color: #d2232c; /* Icon color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .orderNow {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .infoItem {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+}

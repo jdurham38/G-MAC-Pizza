@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: 'Lora', serif;
+
+}
+
+.title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.testimonialsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.testimonialCard {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.testimonialName {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonialQuote {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.testimonialRating {
+    font-size: 1.2em;
+    color: #FFD700; /* Gold color for stars */
+    margin-bottom: 10px;
+}
+
+.readMoreButton {
+    display: inline-block;
+    background-color: #008d41; /* Italian flag green */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.readMoreButton:hover {
+    background-color: #006633; /* Darker shade of green on hover */
+    color: #fff; /* Ensure text stays white */
+}

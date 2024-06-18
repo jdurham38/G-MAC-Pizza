@@ -1,0 +1,52 @@
+/* styles.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px; /* Adds padding around the navbar */
+    font-size: x-large;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 15px; /* Adds margin between links */
+}
+
+.link:hover {
+  color: #008d41;
+}
+
+.iconLink {
+  color: #4267B2;
+  font-size: 24px;
+  transition: color 0.3s, transform 0.3s;
+  margin-left: 15px;
+}
+
+.iconLink:hover {
+  color: #365899;
+  transform: scale(1.1);
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .link {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  }

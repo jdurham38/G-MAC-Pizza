@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-family: 'Lora', serif;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.iconLink {
+    color: #4267B2;
+    font-size: 24px;
+    transition: color 0.3s, transform 0.3s;
+    margin-left: 15px;
+}
+
+.iconLink:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .logoContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .logoImage {
+        margin-right: 10px;
+        width: 60px; /* Adjust the width for smaller screens */
+        height: 60px; /* Maintain aspect ratio, make image a perfect circle */
+    }
+
+    .logoTitle {
+        font-size: 1.2em; /* Adjust the font size for smaller screens */
+        text-align: left; /* Align text to the left */
+    }
+}

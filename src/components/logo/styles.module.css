@@ -1,0 +1,39 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoImage {
+    margin-right: 10px;
+    width: 80px;  /* Set the width to make the image smaller */
+    height: 80px; /* Maintain aspect ratio, make image a perfect circle */
+    border-radius: 50%; /* Apply a border-radius to make the image circular */
+    transition: width 0.3s, height 0.3s;
+}
+
+.logoTitle {
+    font-family: 'Lora', serif;
+    margin: 0;
+    font-size: 1.5em; /* Adjust the font size */
+    transition: font-size 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logoContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoImage {
+        width: 60px; /* Adjust the width for smaller screens */
+        height: 60px; /* Maintain aspect ratio, make image a perfect circle */
+        margin-bottom: 10px; /* Add space below the image */
+    }
+
+    .logoTitle {
+        font-size: 1.2em; /* Adjust the font size for smaller screens */
+        text-align: center; /* Center the text for better alignment */
+    }
+}

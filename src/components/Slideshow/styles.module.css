@@ -1,0 +1,30 @@
+.carouselContainer {
+  max-width: 480px; /* Reduced width for a smaller carousel */
+  margin: 0 auto; /* Centers the carousel horizontally */
+  overflow: hidden; /* Ensures no content spills out */
+  border-radius: 15px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  background-color: #fff; /* Ensures a white background for the container */
+  padding: 10px; /* Adds some padding inside the container */
+  border: 3px solid red; /* Adds a red border */
+}
+
+.carouselImage {
+  width: 100%; /* Adjusts width to container's width */
+  height: auto; /* Adjusts height maintaining aspect ratio */
+  display: block; /* Ensures no extra space at the bottom of the image */
+  border-radius: 10px; /* Adds rounded corners to images */
+}
+
+.carouselContainer:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a more prominent shadow on hover */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow */
+}
+
+.carouselImage {
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the transform */
+}
+
+.carouselImage:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+}

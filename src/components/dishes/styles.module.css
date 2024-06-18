@@ -1,0 +1,84 @@
+.dishesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.dishCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 600px;
+}
+
+.dishCard:hover {
+    transform: translateY(-5px);
+}
+
+.dishImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.dishName {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.dishCard:nth-child(3n+1) .dishImage {
+    border: 3px solid #008000; /* green */
+}
+
+.dishCard:nth-child(3n+2) .dishImage {
+    border: 3px solid #FF0000; /* white */
+}
+
+.dishCard:nth-child(3n+3) .dishImage {
+    border: 3px solid #FF0000; /* red */
+}
+
+.dishCard:nth-child(3n+4) .dishImage {
+    border: 3px solid #008000; /* red */
+}
+
+@media (max-width: 768px) {
+    .dishesContainer {
+        grid-template-columns: 1fr; /* Stack items vertically */
+    }
+
+    .dishCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dishImage {
+        margin-right: 0;
+        margin-bottom: 10px; /* Add space below the image */
+    }
+}

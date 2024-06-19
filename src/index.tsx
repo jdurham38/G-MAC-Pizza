@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import posthog from 'posthog-js';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const posthogApiKey = process.env.REACT_APP_POSTHOG_API_KEY;
 const posthogApiHost = process.env.REACT_APP_POSTHOG_API_HOST || 'https://app.posthog.com'; // default to the main PostHog server if not specified
@@ -17,6 +18,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    <SpeedInsights />
   </React.StrictMode>
 );
 

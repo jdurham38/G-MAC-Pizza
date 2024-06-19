@@ -41,8 +41,8 @@ export default function Contact() {
   };
 
   const validateMessage = (message: string) => {
-    if (message.length > 250) {
-      setMessageError('Message cannot exceed 250 characters.');
+    if (message.length > 500) {
+      setMessageError('Message cannot exceed 500 characters.');
     } else {
       setMessageError('');
     }
@@ -116,14 +116,14 @@ export default function Contact() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            maxLength={250}
+            maxLength={500}
             required
           />
-          <p className={styles.charCount}>{formData.message.length}/250</p>
+          <p className={styles.charCount}>{formData.message.length}/500</p>
           {messageError && <p className={styles.errorMessage}>{messageError}</p>}
         </div>
         <ReCAPTCHA
-          sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY || ''} // Replace with your reCAPTCHA site key
+          sitekey={process.env.REACT_APP_SITE_KEY || ''} // Replace with your reCAPTCHA site key
           onChange={handleRecaptchaChange}
         />
         <button type="submit">Submit</button>

@@ -7,6 +7,21 @@
     justify-items: center;
 }
 
+.readMoreButton {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add some space above the button */
+    align-self: flex-start; /* Align button with the start of the text */
+}
+
+.readMoreButton:hover {
+    filter: brightness(0.8);
+}
+
 .title {
     font-size: 2.5em;
     color: #333;
@@ -15,12 +30,11 @@
     font-weight: bold;
     text-align: center;
     font-family: 'Lora', serif;
-
 }
 
 .dishCard {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Items in a row on larger screens */
     align-items: center;
     justify-content: flex-start;
     border: 1px solid #ccc;
@@ -42,13 +56,19 @@
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 20px;
+    margin-right: 20px; /* Space between image and text */
 }
 
 .dishName {
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
+    margin-bottom: 10px; /* Space below the text */
+}
+
+.dishDetails {
+    display: flex;
+    flex-direction: column; /* Stack text and button vertically */
 }
 
 .dishCard:nth-child(3n+1) .dishImage {
@@ -56,7 +76,7 @@
 }
 
 .dishCard:nth-child(3n+2) .dishImage {
-    border: 3px solid #FF0000; /* white */
+    border: 3px solid #FF0000; /* red */
 }
 
 .dishCard:nth-child(3n+3) .dishImage {
@@ -64,7 +84,23 @@
 }
 
 .dishCard:nth-child(3n+4) .dishImage {
-    border: 3px solid #008000; /* red */
+    border: 3px solid #008000; /* green */
+}
+
+.dishCard:nth-child(3n+1) .readMoreButton {
+    background-color: #008000; /* green */
+}
+
+.dishCard:nth-child(3n+2) .readMoreButton {
+    background-color: #FF0000; /* red */
+}
+
+.dishCard:nth-child(3n+3) .readMoreButton {
+    background-color: #FF0000; /* red */
+}
+
+.dishCard:nth-child(3n+4) .readMoreButton {
+    background-color: #008000; /* green */
 }
 
 @media (max-width: 768px) {
@@ -80,5 +116,13 @@
     .dishImage {
         margin-right: 0;
         margin-bottom: 10px; /* Add space below the image */
+    }
+
+    .dishDetails {
+        align-items: center; /* Center text and button on smaller screens */
+    }
+
+    .readMoreButton {
+        align-self: center; /* Center button on smaller screens */
     }
 }

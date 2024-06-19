@@ -1,0 +1,59 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.closeButton {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    filter: brightness(0.8);
+}
+
+.modalBody {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.closeButton:nth-child(3n+1) {
+    background-color: #008000; /* green */
+}
+
+.closeButton:nth-child(3n+2) {
+    background-color: #FF0000; /* red */
+}
+
+.closeButton:nth-child(3n+3) {
+    background-color: #FF0000; /* red */
+}
+
+.closeButton:nth-child(3n+4) {
+    background-color: #008000; /* green */
+}

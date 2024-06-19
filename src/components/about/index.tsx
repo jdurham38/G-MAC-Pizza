@@ -12,7 +12,7 @@ export default function About() {
                         Striving for fresh food the way our grandparents used to make it, we bring back old Italian traditions into the modern age. Our journey began with a passion for authentic, home-cooked Italian cuisine, passed down through generations.
                     </p>
                     <p className={styles.aboutText}>
-                        We take pride in sourcing the freshest ingredients, ensuring that every dish we serve is a testament to quality and taste. Our menu is a celebration of Italy's rich culinary heritage, featuring a blend of classic favorites and innovative creations. From our hand-tossed pizzas, topped with the finest cheeses and freshest toppings, to our succulent wings, marinated and cooked to perfection, every bite is a journey back to the warmth and comfort of our grandparents' kitchen.
+                        We take pride in sourcing the freshest ingredients, ensuring that every dish we serve is a testament to quality and taste. Our menu is a celebration of Italy's rich culinary heritage, featuring a blend of classic favorites and innovative creations. From our hand-tossed pizzas, all finished with our house made mozzarella, to our succulent wings, marinated and cooked to perfection, every bite is a journey back to the warmth and comfort of our grandparents' kitchen.
                     </p>
 
                     <p className={styles.aboutText}>

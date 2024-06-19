@@ -7,9 +7,9 @@ import nonna from './nonna.jpg';
 
 export default function Dishes() {
     const dishes = [
-        { name: 'Grandma\'s Pizza', image: gPizza },
+        { name: 'Grandma\'s Pizza', image: nonna },
         { name: 'Oven Roasted Wings', image: wings },
-        { name: 'Nonna\'s', image: nonna },
+        { name: 'Nonna\'s Pie', image: gPizza },
         { name: 'Award Winning Cheese Pizza', image: cheese },
     ];
 

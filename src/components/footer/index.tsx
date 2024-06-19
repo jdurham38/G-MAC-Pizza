@@ -45,7 +45,7 @@ export default function Footer() {
                     </a>
                 </li>
                 <li className={styles.listItem}>
-                    <a href="tel:+9087683500" className={styles.link}>
+                    <a href="tel:+1 9087683500" className={styles.link}>
                         Phone Number: 908-768-3500
                     </a>
                 </li>

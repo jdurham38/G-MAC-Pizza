@@ -18,7 +18,7 @@ export default function Dishes() {
     const dishes: Dish[] = [
         { name: 'Grandma\'s Pizza', image: gPizza, description: 'On our house-made airy Sicilian shells with our creamy white garlic sauce, aged mozzarella cheese, topped with marinara sauce, and finished with a drizzle of pesto sauce, Parmesan, and fresh mozzarella.' },
         { name: 'Oven Roasted Wings', image: wings, description: 'Oven roasted wings, never fried! Choose from 13 wing sauces/rubs or have them plain!\n\n- Extra Mild Wing Sauce\n- Buffalo Sauce (GF)\n- Host Sauce (GF)\n- Garlic Parm (GF)\n- BBQ (GF)\n- Sweet Red Chili Sauce\n- Mango Habanero (GF)\n- Sweet Teriyaki\n- Kickin\' Bourbon (GF)\n- Korean BBQ\n- Jamaican Jerk (GF)\n- Honey Mustard\n- Lemon Pepper Rub\n- Plain' },
-        { name: 'Nonna\'s Pie', image: nonna, description: 'A thin crust scullion base with house tomato sauce, fresh mozzarella, topped with hand-crushed tomatoes, fresh basil, garlic olive oil, and finished with Parmesan.' },
+        { name: 'Nonna\'s Pie', image: nonna, description: 'A thin crust Sicilian base with house tomato sauce, fresh mozzarella, topped with hand-crushed tomatoes, fresh basil, garlic olive oil, and finished with Parmesan.' },
         { name: 'Award Winning Cheese Pizza', image: cheese, description: 'A 16” pizza with our house-made tomato sauce and our blend of aged mozzarella cheese. Topped with fresh mozzarella.', isAwardWinning: true },
     ];
 

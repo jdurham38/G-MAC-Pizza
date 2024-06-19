@@ -6,6 +6,8 @@
     list-style: none;
     padding: 10px 20px; /* Adds padding around the navbar */
     font-size: x-large;
+    font-family: 'Lora', serif;
+
 }
 
 .link {

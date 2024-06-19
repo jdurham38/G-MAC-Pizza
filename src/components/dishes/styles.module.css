@@ -5,6 +5,18 @@
     padding: 20px;
     align-items: center;
     justify-items: center;
+    font-family: 'Lora', serif;
+
+}
+
+.awardWinningDishName {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    font-family: 'Lora', serif;
+
 }
 
 .readMoreButton {
@@ -31,7 +43,11 @@
     text-align: center;
     font-family: 'Lora', serif;
 }
-
+.description {
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+}
 .dishCard {
     display: flex;
     flex-direction: row; /* Items in a row on larger screens */

@@ -17,7 +17,14 @@ export default function Hero() {
             <div className={styles.infoContainer}>
                 <a href="tel:+1 9087683500" className={styles.infoItem}><FaPhoneAlt className={styles.icon} /> (908) 768-3500</a>
                 <a href="https://www.google.com/maps/place/760+Memorial+Pkwy,+Phillipsburg,+NJ+08865" target="_blank" rel="noopener noreferrer" className={styles.infoItem}><FaMapMarkerAlt className={styles.icon} /> 760 Memorial Pkwy, Phillipsburg, NJ 08865</a>
-                <p className={styles.infoItem}><FaClock className={styles.icon} /> Monday-Thursday: 11:00-9:00, Friday-Saturday: 11:00-10:00, Sunday: 12:00-8:00</p>
+                <div className={styles.infoItem}>
+                    <FaClock className={styles.icon} />
+                    <div className={styles.hours}>
+                        <p>Monday-Thursday: 11:00-9:00</p>
+                        <p>Friday-Saturday: 11:00-10:00</p>
+                        <p>Sunday: 12:00-8:00</p>
+                    </div>
+                </div>
             </div>
         </div>
     );

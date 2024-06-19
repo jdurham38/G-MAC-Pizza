@@ -94,7 +94,7 @@
 .closeButton {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #008d41;
     color: white;
     border: none;
     border-radius: 4px;
@@ -102,7 +102,7 @@
 }
 
 .closeButton:hover {
-    background-color: #0056b3;
+    background-color: #006633;
 }
 
 .noScroll {

@@ -55,6 +55,16 @@
     color: #d2232c; /* Icon color */
 }
 
+.hours {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hours p {
+    margin: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero {

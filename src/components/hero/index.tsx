@@ -12,7 +12,7 @@ export default function Hero() {
                 <meta name="hours" content="Monday-Thursday: 11:00-9:00, Friday-Saturday: 11:00-10:00, Sunday: 12:00-8:00" />
             </Helmet>
             <div className={styles.orderNow}>
-                <a href="https://slicelife.com/restaurants/nj/phillipsburg/08865/mac-pizza-wings-phillipsburg/menu" className={styles.orderLink}>Order Now</a>            
+                <a href="https://mac3.hrpos.heartland.us/order" className={styles.orderLink}>Order Now</a>            
             </div>
             <div className={styles.infoContainer}>
                 <a href="tel:+1 9087683500" className={styles.infoItem}><FaPhoneAlt className={styles.icon} /> (908) 768-3500</a>

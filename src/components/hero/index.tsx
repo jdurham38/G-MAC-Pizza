@@ -20,7 +20,8 @@ export default function Hero() {
                 <div className={styles.infoItem}>
                     <FaClock className={styles.icon} />
                     <div className={styles.hours}>
-                        <p>Monday-Thursday: 11:00-9:00</p>
+                        <p>Monday, Wednesday, Thursday: 11:00-9:00</p>
+                        <p>Tuesday: <strong>Closed</strong></p>
                         <p>Friday-Saturday: 11:00-10:00</p>
                         <p>Sunday: 12:00-8:00</p>
                     </div>
